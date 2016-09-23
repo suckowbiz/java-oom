@@ -21,7 +21,7 @@ public class HeapMonster {
 
     @PostConstruct
     public void consume() {
-        logger.log(Level.INFO, "--> eat() Going to provoke OutOfMemoryError. Now!");
+        logger.log(Level.INFO, "Going to provoke OutOfMemoryError. Now!");
         this.service.provokeOOM();
     }
 }
