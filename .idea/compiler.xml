@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="oom2" />
+        <module name="oom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="oom2" target="1.7" />
+      <module name="oom" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
